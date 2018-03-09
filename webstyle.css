@@ -1,0 +1,45 @@
+H1{
+     text-align:center;
+     color:white;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+a {
+    color: white;
+}
+p1{
+   text-decoration:bold;
+    color:white;
+}
+strong{
+     color:white; 
+}
+b {
+    color:white;
+}
+td{
+    color:white;
+}
+a:hover {
+    color: gray;
+}
+.click:hover{
+-moz-box-shadow: 0 0 10px #ccc;
+ -webkit-box-shadow: 0 0 10px #ccc;
+ box-shadow: 0 0 10px #ccc;
+}
+h2{
+    color:white;
+    text-align :center;
+}
+
+footer {
+color : white;
+}
+p{
+   text-decoration:bold;
+    color:white;
+   text-indent: 50px;
+}

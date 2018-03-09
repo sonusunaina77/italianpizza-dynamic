@@ -1,0 +1,59 @@
+
+
+<html>
+<style>
+body, html {
+    height: 100%;
+
+    /* The image used */
+    background-image: url("download.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button {
+    padding: 15px 32px;
+	  position     : relative;
+	 left      : 520px;
+    border-radius: 12px;
+	 top          : 100px;
+	 text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    cursor: pointer;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	
+
+}
+.button:after {
+  content: " >>>";
+}
+
+</style>
+<body>
+<p align = "left"><tr>
+<td><input type = "button"  value="LOGOUT" onclick="window.location = 'logout.php';"></td>
+</tr></p>
+<table align = "center">
+<td><img src="logo.gif" height="250" width="250"></td>
+</table>
+<table>
+<p align = "center">
+<tr>
+<td><input type = "button" class = "button" value="MenuDetails" onclick="window.location = 'display.php'" style="float: right;" ></td>
+</tr></p>
+<p align = "center"><tr>
+<td><input type = "button"  class = "button" value="OrderDetails" onclick="window.location = 'display2.php';"></td>
+</tr></p>
+</table>
+</body>
+</html>
