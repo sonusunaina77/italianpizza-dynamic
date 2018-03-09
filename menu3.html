@@ -1,0 +1,160 @@
+<html>
+<body background="background.jpg">
+<script type="text/javascript" src="jquery-2.1.4.min"></script>
+      <h1 align = "center" >
+
+<table align ="center">
+<tr>
+<td><a href ="../pizzasite.html"><img src ="home.gif" height="80" width="200" id ="nav"></a></td><td><a href="menu.html"><img src ="menu.gif" height="60" width="200" id ="nav"></a></td>
+<td><img src="Italian_Pizza.gif" height="270" width="270"></td>
+<td><a href ="../products1.php"><img src ="order.gif" height="60" width="200" id ="nav"></a></td>
+<td><a href="contactus.html"><img src ="contactus.gif" height="63" width="240" id = "nav"></a></td> 
+</tr>
+</table> 
+</h1>
+
+<a href ="menu.html"><img src ="menunav.png"  id ="mnav"></a><a href ="menu1.html"><img src ="menunav1.png" id ="mnav"></a><a href ="menu2.html"><img src ="menunav2.png" id ="mnav"></a><a href ="menu3.html"><img src ="menunav3.png" id ="mnav" height ="52" ></a>
+
+<table>
+<tr>
+<td>
+<strong>CAKES</strong>
+<ul><font face ="Verdana" size ="15">
+<li id = "c">Choco Lava Cake</li>
+<li id = "c1">Chocolate Truffle Cake</li>
+<li id = "c2">Choco Vanilla Cake</li>
+</font>
+</ul>
+<br>
+<strong>MOUSSE</strong>
+<ul><font face ="Verdana" size ="15">
+<li  id ="m1">Chocolate Mousse</li>
+<li id = "m2">Butterscotch Mousse</li>
+</font>
+</ul>
+<br>
+<strong>COOKIES</strong>
+<ul><font face ="Verdana" size ="15">
+<li id = "cook">Chocolate Chip Cookie</li>
+
+</font>
+</ul>
+</td>
+<td width = "850" align ="right" >
+<p><img src ="choco lava.jpg" id ="image"></p>
+</tr>
+</table>
+
+</body>
+<script>
+document.getElementById("c").onmouseover = function() {mouseOver()};
+document.getElementById("c").onmouseout = function() {mouseOut()};
+function mouseOver() {
+    document.getElementById("image").src = "choco lava.jpg";
+    document.getElementById("c").style.color = "yellow";
+
+}
+function mouseOut() {
+    document.getElementById("c").style.color = "black";
+}
+document.getElementById("c1").onmouseover = function() {mouseOver1()};
+document.getElementById("c1").onmouseout = function() {mouseOut1()};
+function mouseOver1() {
+    document.getElementById("image").src = "choco truffle cake.jpg";
+    document.getElementById("c1").style.color = "yellow";
+}
+function mouseOut1() {
+    document.getElementById("c1").style.color = "black";
+}
+document.getElementById("c2").onmouseover = function() {mouseOver2()};
+document.getElementById("c2").onmouseout = function() {mouseOut2()};
+function mouseOver2() {
+    document.getElementById("image").src = "cake.png";
+    document.getElementById("c2").style.color = "yellow";
+}
+function mouseOut2() {
+    document.getElementById("c2").style.color = "black";
+}
+document.getElementById("m1").onmouseover = function() {mouseOver3()};
+document.getElementById("m1").onmouseout = function() {mouseOut3()};
+function mouseOver3() {
+    document.getElementById("image").src = "choco mousse.jpg";
+    document.getElementById("m1").style.color = "yellow";
+}
+function mouseOut3() {
+    document.getElementById("m1").style.color = "black";
+}
+document.getElementById("m2").onmouseover = function() {mouseOver4()};
+document.getElementById("m2").onmouseout = function() {mouseOut4()};
+function mouseOver4() {
+    document.getElementById("image").src = "butterscotch mousse.jpg";
+    document.getElementById("m2").style.color = "yellow";
+}
+function mouseOut4() {
+    document.getElementById("m2").style.color = "black";
+}
+document.getElementById("cook").onmouseover = function() {mouseOver5()};
+document.getElementById("cook").onmouseout = function() {mouseOut5()};
+function mouseOver5() {
+    document.getElementById("image").src = "choco chip cookie.jpg";
+    document.getElementById("cook").style.color = "yellow";
+}
+function mouseOut5() {
+    document.getElementById("cook").style.color = "black";
+}
+
+</script>
+
+
+<div style="color:white;background-color: black;">
+
+  <footer align = "center" >
+ follow us :<a href ="https://www.facebook.com/" target ="_blank"> <img src ="facebook.png" height ="50" width ="50"> </a><a href ="https://twitter.com/" target ="_blank"><img src ="twitter.png" height ="50" width ="50"></a><a href="https://www.instagram.com/?hl=en" target ="_blank"><img src ="instagram.gif" height ="50" width ="50"></a><a href ="https://plus.google.com/" target ="_blank"><img src ="googleplus.png" height ="50" width ="50"></a>
+  <p>Copyright&copy Italian Pizza
+,All rights reserved</p>
+  <p>Contact information: <a href="mailto:italianpizza@gmail.com">italianpizza@gmail.com</a>.</p>
+</footer>
+</div> 
+<style>
+#nav {
+  height: 60px;
+ -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+
+  
+}
+
+#nav:hover {
+  height: 80px;
+
+}
+#image{
+    width:580px;
+    height:470px;
+
+}
+li{
+    font-family: verdana;
+    font-size: 50%;
+}
+strong{
+    font-family: Impact;
+    font-size: 200%;
+}
+#mnav:hover {
+  height: 52px;
+}
+
+
+</style>
+</body>
+
+
+
+
+
+
+</html>

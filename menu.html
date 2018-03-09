@@ -1,0 +1,164 @@
+<html>
+<body background="background.jpg">
+<script type="text/javascript" src="jquery-2.1.4.min"></script>
+      <h1 align = "center" >
+
+<table align ="center">
+<tr>
+<td><a href ="../pizzasite.html"><img src ="home.gif" height="80" width="200" id ="nav"></a></td><td><a href="menu.html"><img src ="menu.gif" height="60" width="200" id ="nav"></a></td>
+<td><img src="Italian_Pizza.gif" height="270" width="270"></td>
+<td><a href ="../products1.php"><img src ="order.gif" height="60" width="200" id ="nav"></a></td>
+<td><a href="contactus.html"><img src ="contactus.gif" height="63" width="240" id = "nav"></a></td> 
+</tr>
+</table> 
+</h1>
+<a href ="menu.html"><img src ="menunav.png" height ="52" id ="mnav"></a><a href ="menu1.html"><img src ="menunav1.png" id ="mnav"></a><a href ="menu2.html"><img src ="menunav2.png" id ="mnav"></a><a href ="menu3.html"><img src ="menunav3.png" id ="mnav"></a>
+
+
+<table>
+<tr>
+<td>
+<strong> 
+SIMPLY VEG
+</strong>
+<ul>
+<font face ="Verdana" size ="15">
+<li id = "l">Margherita</li>
+</font>
+</ul>
+<br><strong>VEG TREAT</strong>
+<ul><font face ="Verdana" size ="15">
+<li  id ="l1">Country Special</li>
+<li id = "l2">Farmhouse</li>
+<li id = "l3">Spicy Triple Tango</li>
+</font>
+</ul>
+<br>
+<strong>VEG SPECIAL</strong>
+<ul>
+<font face ="Verdana" size ="15">
+<li id = "s1">Peppy Paneer</li>
+<li id  = "s2">5 Pepper</li>
+<li id = "s3">Deluxe Veggie</li>
+</font>
+</ul>
+</td>
+<td width = "850" align ="right" >
+<p><img src ="margherita.gif" id ="image"></p>
+</tr>
+</table>
+
+</body>
+<script>
+document.getElementById("l1").onmouseover = function() {mouseOver()};
+document.getElementById("l1").onmouseout = function() {mouseOut()};
+function mouseOver() {
+    document.getElementById("image").src = "country-special.jpg";
+    document.getElementById("l1").style.color = "yellow";
+
+}
+function mouseOut() {
+    document.getElementById("l1").style.color = "black";
+}
+document.getElementById("l").onmouseover = function() {mouseOver1()};
+document.getElementById("l").onmouseout = function() {mouseOut1()};
+function mouseOver1() {
+    document.getElementById("image").src = "margherita.gif";
+    document.getElementById("l").style.color = "yellow";
+}
+function mouseOut1() {
+    document.getElementById("l").style.color = "black";
+}
+document.getElementById("l2").onmouseover = function() {mouseOver2()};
+document.getElementById("l2").onmouseout = function() {mouseOut2()};
+function mouseOver2() {
+    document.getElementById("image").src = "farmhouse.jpg";
+    document.getElementById("l2").style.color = "yellow";
+}
+function mouseOut2() {
+    document.getElementById("l2").style.color = "black";
+}
+document.getElementById("l3").onmouseover = function() {mouseOver3()};
+document.getElementById("l3").onmouseout = function() {mouseOut3()};
+function mouseOver3() {
+    document.getElementById("image").src = "spicy-triple-tango.jpg";
+    document.getElementById("l3").style.color = "yellow";
+}
+function mouseOut3() {
+    document.getElementById("l3").style.color = "black";
+}
+document.getElementById("s1").onmouseover = function() {mouseOver4()};
+document.getElementById("s1").onmouseout = function() {mouseOut4()};
+function mouseOver4() {
+    document.getElementById("image").src = "peppy-paneer.gif";
+    document.getElementById("s1").style.color = "yellow";
+}
+function mouseOut4() {
+    document.getElementById("s1").style.color = "black";
+}
+document.getElementById("s2").onmouseover = function() {mouseOver5()};
+document.getElementById("s2").onmouseout = function() {mouseOut5()};
+function mouseOver5() {
+    document.getElementById("image").src = "5-pepper.jpg";
+    document.getElementById("s2").style.color = "yellow";
+}
+function mouseOut5() {
+    document.getElementById("s2").style.color = "black";
+}
+document.getElementById("s3").onmouseover = function() {mouseOver6()};
+document.getElementById("s3").onmouseout = function() {mouseOut6()};
+function mouseOver6() {
+    document.getElementById("image").src = "deluxe-image.gif";
+    document.getElementById("s3").style.color = "yellow";
+}
+function mouseOut6() {
+    document.getElementById("s3").style.color = "black";
+}
+</script>
+<div style="color:white;background-color: black;">
+
+  <footer align = "center" >
+ follow us :<a href ="https://www.facebook.com/" target ="_blank"> <img src ="facebook.png" height ="50" width ="50"> </a><a href ="https://twitter.com/" target ="_blank"><img src ="twitter.png" height ="50" width ="50"></a><a href="https://www.instagram.com/?hl=en" target ="_blank"><img src ="instagram.gif" height ="50" width ="50"></a><a href ="https://plus.google.com/" target ="_blank"><img src ="googleplus.png" height ="50" width ="50"></a>
+  <p>Copyright&copy Italian Pizza
+,All rights reserved</p>
+  <p>Contact information: <a href="mailto:italianpizza@gmail.com">italianpizza@gmail.com</a>.</p>
+</footer>
+</div> 
+<style>
+#nav {
+  height: 60px;
+   -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+
+  
+}
+
+#nav:hover {
+  
+  height: 80px;
+}
+#image{
+    width:600px;
+    height:490px;
+
+}
+li{
+    font-family: verdana;
+    font-size: 50%;
+}
+strong{
+    font-family: Impact;
+    font-size: 200%;
+}
+#mnav:hover {
+  height: 52px;
+}
+
+</style>
+</body>
+
+
+</html>
